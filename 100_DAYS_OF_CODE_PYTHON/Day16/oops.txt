@@ -1,0 +1,52 @@
+
+Procedural programming is a programming paradigm that is based on the concept of procedures or routines, also known as
+subroutines or functions. In procedural programming, a program is organized into one or
+more procedures that are executed
+sequentially. Each procedure contains a series of instructions that are executed in order, typically manipulating data
+and performing specific tasks.
+
+Key characteristics of procedural programming include:
+
+Procedure/Function:
+
+Programs are organized into procedures or functions, which are self-contained units of code that perform a specific task.
+Procedures can take input parameters, perform operations, and return results.
+Top-Down Design:
+
+The program structure is designed from the top level down to the details.
+The main program calls various procedures to accomplish tasks, and these procedures may call other procedures.
+Data:
+
+Data is often organized into structures or records.
+Procedures operate on data by passing it as parameters.
+Sequential Execution:
+
+The program executes instructions sequentially, one after another.
+Modularity:
+
+The use of procedures promotes modularity, making it easier to understand, maintain, and modify the code.
+Reusability:
+
+Procedures can be reused in different parts of the program or in other programs.
+Variables:
+
+Variables are used to store and manipulate data within procedures.
+Here's a simple example in a procedural programming language like C:
+
+c
+Copy code
+#include <stdio.h>
+
+// Function to add two numbers
+int add(int a, int b) {
+    return a + b;
+}
+
+// Function to subtract two numbers
+int subtract(int a, int b) {
+    return a - b;
+}
+
+In this example, add and subtract are procedures that perform specific operations, and the main function calls these procedures to achieve a desired result.
+
+While procedural programming is still widely used, especially in languages like C, it has some limitations when it comes to managing complexity in large and complex software systems. Object-oriented programming (OOP) and other paradigms have been developed to address some of these limitations by providing additional organizational and structuring mechanisms.
